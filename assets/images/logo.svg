@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="pcBadgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5c4433"/>
+      <stop offset="100%" stop-color="#3b2a20"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#pcBadgeGrad)" stroke="#a98a4d" stroke-width="2"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#cbbba4" stroke-width="1" opacity="0.5"/>
+  <!-- simple shopping bag glyph -->
+  <path d="M42 46 h36 l-3 34 a4 4 0 0 1 -4 4 h-22 a4 4 0 0 1 -4 -4 z"
+        fill="none" stroke="#faf8f3" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M48 46 v-6 a12 12 0 0 1 24 0 v6"
+        fill="none" stroke="#a98a4d" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="60" y="102" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="13" letter-spacing="2" fill="#faf8f3">PC</text>
+</svg>
