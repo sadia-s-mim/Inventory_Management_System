@@ -7,11 +7,7 @@ require_once '../includes/auth_check.php';
 requireRole([ROLE_ADMIN, ROLE_BRANCH_MANAGER]);
 
 $pageTitle = 'Activity Log';
-// Admin sees every action system-wide. A Branch Manager sees activity by
-// people on their own branch's team (themselves + their branch's Sales
-// User) — not other branches, and not other managers/admins — similar to
-// how a manager in a real multi-branch retail system audits their own
-// location rather than the whole company.
+
 $scopedBranch = ((int)$_SESSION['role_id'] === ROLE_BRANCH_MANAGER) ? (int)$_SESSION['branch_id'] : null;
 
 $search = sanitize($conn, $_GET['search'] ?? '');
